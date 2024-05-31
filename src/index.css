@@ -1,0 +1,197 @@
+/*Обнуление*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/*--------------------*/
+
+
+body {
+    background: #232429;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.wrapper {
+
+    width: 700px;
+}
+
+.container {}
+
+.title {
+    width: 128px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+
+}
+
+.btn {
+    width: 700px;
+    height: 60px;
+    margin: 15px auto;
+    border-radius: 10px;
+    color: #8BB4BF;
+    background: #232429;
+
+}
+
+.input_first {
+    width: 700px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-bottom: 15px;
+    position: relative;
+    ;
+}
+
+.btn_block {
+    position: absolute;
+    top: 327px;
+    right: 565px;
+    margin-left: 453px;
+}
+
+.btn__block {
+    position: absolute;
+    top: 400px;
+    right: 565px;
+    margin-left: 453px;
+}
+
+.input_second {
+    width: 700px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+
+.btn_green {
+    background: green;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+
+/* .P {
+    width: 700px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-bottom: 15px;
+    list-style: none;
+    width: 100%;
+    text-align: left;
+    padding: 5px;
+    position: relative;
+} */
+
+
+.btn_add_todo {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+
+}
+
+
+.done {
+    text-decoration: line-through;
+}
+
+.qwerty {
+    background-color: red;
+}
